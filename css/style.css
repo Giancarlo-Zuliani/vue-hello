@@ -7,6 +7,7 @@
 
 #root div{
   width:50%;
-  background-color: red;
   min-height: 300px;
+  background-size:contain;
+  background-repeat: no-repeat;
 }

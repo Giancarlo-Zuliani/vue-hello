@@ -10,8 +10,8 @@
   <body>
     <div id="root">
       <h1>{{title}}</h1>
-      <div background='img'></div>
-      <button v-on:clilck='carousel'>slide</button>
+      <div v-bind:style ="{ 'background-image': 'url(' + img + ')' }"></div>
+      <button v-on:click="slide">slide</button>
     </div>
 
     <script src="js/script.js" charset="utf-8"></script>
