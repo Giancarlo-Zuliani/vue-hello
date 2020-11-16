@@ -1,0 +1,12 @@
+*{
+  box-sizing:border-box;
+  margin:5px auto;
+  padding:0;
+  text-align: center;
+}
+
+#root div{
+  width:50%;
+  background-color: red;
+  min-height: 300px;
+}
