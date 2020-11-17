@@ -10,7 +10,8 @@
   <body>
     <div id="root">
       <h1>{{title}}</h1>
-      <div v-bind:style ="{ 'background-image': 'url(' + img + ')' }"></div>
+      <img :src="img" alt="">
+      <br>
       <button v-on:click="slide">slide</button>
     </div>
 
